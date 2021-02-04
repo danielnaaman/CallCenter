@@ -75,6 +75,7 @@ namespace CallCenter
         private void timer_HebrewDuration_Tick(object sender, EventArgs e)
         {
             durationHebrew++;
+            label_DurationHebrew.Text = durationHebrew.ToString();
         }
 
         private void button_Next(object sender, EventArgs e)
